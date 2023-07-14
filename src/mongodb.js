@@ -23,6 +23,7 @@ const disconnectFromMongoDB = async () => {
         console.log('Desconectado de MongoDB');
     } catch (error) {
         console.error('error al desconectar', error);
+        return null;
     }
 }
 
